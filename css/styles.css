@@ -1,0 +1,264 @@
+/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  background-color: #000;
+  color: #fff;
+}
+.rkl-cal-container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px 20px 10px 20px;
+    background-color: #000;
+    overflow: hidden;
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cal-header {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.cal-header .header {
+    font-size: 34px;
+    flex: 1;
+}
+.cal-header .date-nav {
+  display: flex;
+  align-items: center;
+}
+.col-head {
+    flex: 1;
+    text-align: center;
+}
+.col-head:first-child {
+  flex: .2 !important;
+}
+.filled-time {
+  background-color: #ae80f0 !important;
+  color: white;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center
+}
+.color1 {
+  background-color: #7440dc !important;
+}
+.color2 {
+  background-color: #c048c1 !important
+}
+.timebath {
+  font-size: 10px;
+  margin-top: -3px;
+  opacity: .8;
+}
+.calendar-holder {
+  max-height: 86vh;
+  overflow: auto;
+  padding-top: 14px;
+}
+.titlem {
+  font-weight: bold;
+}
+.col {
+    flex: 1;
+    border-right: 1px solid #333;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.listedEvent {
+  position: absolute;
+  /* background-color: green;
+  color: white;
+  
+  z-index: 99;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 10px;  */
+  width: 100%;
+  background-color: #c048c1;;
+  color: white;
+  z-index: 99;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  flex: 1;
+  /* margin-top: 59px; */
+}
+.all-day {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  flex: 0.22;
+  color: #bebebe;
+  /* padding-bottom: 10px; */
+}
+.today {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.time-col, .col-time {
+  flex: 0.22;
+  color: #bebebe;
+  font-size: 12px;
+  height: auto;
+  display: block;
+  margin-top: -62px;
+  border-right: 0px;
+  background-color: #000;
+}
+.calendar-row .row:nth-child(2) .col-time  {
+  margin-top: -45px;
+}
+.calendar-row .row:nth-child(2) {
+  border-top: 3px solid #666;;
+}
+.day-titles {
+  display: flex;
+  border-bottom: 1px solid #333;
+  padding-bottom: 11px;
+  margin-bottom: 0px;
+  position: sticky;
+  top: -14px;
+  z-index: 9999;
+  margin-top: 0px;
+  background-color: #000;
+  padding-top: 11px;
+}
+.time {
+  display: block;
+  height: 30px;
+  text-align: right;
+}
+#btn-today {
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  padding: 0.4rem 17px;
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 0px 1px #ebebeb;
+}
+#btn-prev, #btn-next {
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 0px 1px #ebebeb;
+}
+time:nth-child(even),time strong {
+  color: #989baf;
+}
+.Event6 {
+  background-color: #ae80f0 !important;
+}
+#calendar-row {
+  /* display: table;
+  width: 750px; */
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+.row .col:last-child, .row .col:nth-child(7) {
+  background-color: #28282B;
+}
+.all-blank {
+  border-bottom: 2px solid #333;
+  /* height: auto; */
+  align-items: initial;
+  border-bottom: 2px solid #111;
+  max-height: 50px;
+}
+#day {
+  padding: 0 10px;
+  height: 720px;
+  width: 620px;
+  position: relative;
+}
+
+#day .wrapper {
+  position: relative;
+}
+.Longeventname1 {
+  background-color: #7440dc;
+}
+.container {
+  float: left;
+  margin-right: 8px;
+  display: table-column;
+}
+.double-col, .Event4, .Event8 {
+  width: 50%;
+}
+.right, .Event8 {
+  right: 0px
+}
+.event {
+  position: absolute;
+  width: 600px;
+  min-height: 5px;
+  background: #e5e5e5;
+  color: #5d6071;
+  padding: 8px;
+  border-top: 10px solid #45d3ab;
+  border-left: 2px solid #45d3ab;
+}
+
+.event:nth-child(2) {
+  border-color: #fe6c6c;
+}
+
+.event:nth-child(3) {
+  border-color: #ad83d9;
+}
+
+.event:nth-child(4) {
+  border-color: #ffb180;
+}
+
+.split {
+  width: 50%;
+}
+
+.odd {
+  right: 0;
+}
+
+.even {
+  left: 0;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+button:hover {
+  background: white;
+  color: #5d6071;
+}
+.day {
+  padding-right: 5px;
+}
