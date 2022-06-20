@@ -77,7 +77,7 @@ var howManyStarting = [];
 buildMainCalendar()
 
 function buildMainCalendar() {
-  fetch('https://rkltestprivate.vercel.app/js/event.json')
+  fetch('https://rkl-calendar-test.vercel.app/js/event.json')
     .then(response => response.json())
     .then((data) => {
       this.events = data;
