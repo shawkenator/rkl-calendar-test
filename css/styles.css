@@ -101,6 +101,7 @@ body {
   align-items: center;
   flex: 0.22;
   color: #bebebe;
+  padding-right: 3px;
   /* padding-bottom: 10px; */
 }
 .today {
@@ -124,6 +125,15 @@ body {
 }
 .calendar-row .row:nth-child(2) {
   border-top: 3px solid #666;;
+}
+#Event2 {
+  height: 630px !important;
+}
+#Longeventname1 {
+  height: 690px !important;
+}
+.Event7 {
+  background-color: #7440dc;
 }
 .day-titles {
   display: flex;

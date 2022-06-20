@@ -16,7 +16,7 @@ const months = [
 const timeArr = [
   { label: '00:00', hour: 0 },
   { label: '01:00', hour: 1 },
-  { label: '03:00', hour: 2 },
+  { label: '02:00', hour: 2 },
   { label: '03:00', hour: 3 },
   { label: '04:00', hour: 4 },
   { label: '05:00', hour: 5 },
