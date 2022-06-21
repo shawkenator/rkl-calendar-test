@@ -134,8 +134,12 @@ body {
   height: 690px !important;
   background-color: #7440dc !important
 }
-.Event7 {
-  background-color: #7440dc;
+#Event7, .Event7 {
+  background-color: #7440dc !important
+}
+#Event3, .Event3 {
+  background-color: #ae80f0 !important;
+  height: 930px;
 }
 .day-titles {
   display: flex;
